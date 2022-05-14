@@ -1,0 +1,25 @@
+.Animation{
+    background-color: aquamarine;
+}
+
+.Animation .transition{
+    transition: all 3s ease 0s;
+    
+    padding-bottom: 50px;
+}
+.Animation .transition.show{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px; 
+    background-color: skyblue;
+
+}
+
+.Animation .girado{
+    transform:rotate(180deg);
+}
+
+.Animation .giradont{
+    transform:rotate(0deg);
+}
+

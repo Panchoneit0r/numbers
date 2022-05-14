@@ -1,0 +1,22 @@
+#chart {
+    background-color: #fff;
+    width: 90%;
+    margin: lem auto;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(41, 118, 194);
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color:rgb(1, 56, 111);
+}

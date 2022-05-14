@@ -1,0 +1,49 @@
+body{
+    background-color: #473693;
+}
+
+.Coin{
+    padding: 50 px;
+    margin: 50px 200px 0px 200px;
+    background-color: #6cc3d8;
+    border: 5px solid #00ccff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+.Coin h1{
+    color:#222020;
+}
+
+.Coin h2{
+    color:#5f5f5f;
+}
+
+.Coin button{
+    background-color: #2d2e2e;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    box-shadow: inset 3 1px 0px rgba(255, 255, 255, 0.5);
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 50px 10px 0px 10px;
+    padding: 10px 20px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Coin input {
+
+    background-color: rgb(49, 45, 46);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 150x;
+    font-weight: bold;
+}
