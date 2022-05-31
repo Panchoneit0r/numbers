@@ -5,7 +5,9 @@
 //import Charthome from './Chart/Charthome';
 import './App.css';
 //import Animation from './Animating/Animation';
-import Numbers from './PureComponets/Numbers';
+//import Numbers from './PureComponets/Numbers';
+//import Calculator from './Calculator/Calculator';
+import Registro from './registro/registro';
 import Header from '../shared/layout/Header';
 import Footer from '../shared/layout/Footer';
 import Content from '../shared/layout/Content';
@@ -13,9 +15,9 @@ import Content from '../shared/layout/Content';
 function App() {
   return (
     <div className="App">
-      <Header title="Suma de numeros" url="https://www.youtube.com/watch?v=H6LLfczz8hM"/>
+      <Header title="Registro" url="https://www.youtube.com/watch?v=H6LLfczz8hM"/>
         <Content>
-          <Numbers/>
+          <Registro/>
         </Content>
       <Footer />
     </div>

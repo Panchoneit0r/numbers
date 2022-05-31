@@ -38,7 +38,6 @@ class Numbers extends Component{
                     {
                         results.map((result, i) => (
                             <li key = {i}>{result}</li>
-                          
                         ))
                     }
                 </ul>
