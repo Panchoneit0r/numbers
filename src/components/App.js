@@ -7,18 +7,20 @@ import './App.css';
 //import Animation from './Animating/Animation';
 //import Numbers from './PureComponets/Numbers';
 //import Calculator from './Calculator/Calculator';
-import Registro from './registro/registro';
+import Person from './registro/Person';
 import Header from '../shared/layout/Header';
 import Footer from '../shared/layout/Footer';
 import Content from '../shared/layout/Content';
+import Popup from 'reactjs-popup';
 
 function App() {
   return (
     <div className="App">
       <Header title="Registro" url="https://www.youtube.com/watch?v=H6LLfczz8hM"/>
         <Content>
-          <Registro/>
+          <Person/>
         </Content>
+        <Popup/>
       <Footer />
     </div>
   );

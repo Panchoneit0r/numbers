@@ -1,0 +1,27 @@
+.Person .error{
+    border: 1px solid red;
+    
+}
+
+.Person .errorMessage{
+    border: 1px solid red;
+    color: red;
+    background-color: black;
+}
+
+.Person{
+    background-color: rgb(140, 126, 126);
+    border-radius: 4px;
+    border:1px solid gray;
+    box-shadow: 
+    rgb(151, 16, 16) 0px 0px 0px 3px, 
+    rgb(8, 8, 8) 0px 0px 0px 6px, 
+    rgb(76, 76, 76) 0px 0px 0px 9px;
+    margin-bottom: 20px;
+    margin:50px auto;
+    min-height: 20px;
+    padding: 19;
+    text-align: center;
+    width:70%;
+}
+
