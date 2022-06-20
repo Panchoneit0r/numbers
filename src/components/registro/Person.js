@@ -5,7 +5,7 @@ import './Person.css';
 import './Popup.css';
 
 
- class Person extends Component {
+ class Conctato extends Component {
     constructor(){
         super();
 
@@ -15,6 +15,7 @@ import './Popup.css';
             last: '',
             email: '',
             phone: '',
+            mesagge: '',
             errors: {
                 name: false,
                 last: false
@@ -35,7 +36,7 @@ import './Popup.css';
     handleOnSubmit = e => {
         e.preventDefault();
         
-        const{name,last,email,phone} = this.state;
+        const{name,last,email,phone,mesagge} = this.state;
         this.setState({
             
         })
@@ -53,7 +54,8 @@ import './Popup.css';
                 name, 
                 last, 
                 email, 
-                phone
+                phone,
+                mesagge
             };
 
             this.setState({
@@ -76,6 +78,7 @@ import './Popup.css';
   render() {
     return (
         <div className="Person">
+            <h1>Contacto</h1>
             <Popup open={this.state.open} modal nested>
             {close => (
                 <div className="modal">
@@ -90,7 +93,9 @@ import './Popup.css';
                     <div className="header"> <h1>Data</h1> </div>
                         <div className="content">
                             <h1>First Name: <span>{this.state.name}</span><span>{this.state.last}</span></h1>
+                            <h1>Telefono: <span>{this.state.phone}</span>  </h1>
                             <h1>Email: <span>{this.state.email}</span></h1>
+                            <h2>Mensaje: <span>{this.state.mesagge}</span>  </h2>
                         </div>
                     </div>
                 )}
@@ -151,7 +156,16 @@ import './Popup.css';
                         />
                 </label>   
                 <br/> 
-                <button type='submit'>Guardar informacion</button>
+                <label><strong>mensaje: </strong> 
+                    <input 
+                        type="text" 
+                        name="mesagge" 
+                        value = {this.state.mesagge}
+                        onChange={this.handleOnChange}
+                        />
+                </label>    
+                <br/>
+                <button type='submit'>Enviar</button>
             </form>
           
         </div>
@@ -159,4 +173,4 @@ import './Popup.css';
   }
 }
 
-export default Person;
+export default Conctato;

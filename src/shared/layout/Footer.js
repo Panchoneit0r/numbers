@@ -3,7 +3,7 @@ import React from 'react'
 const Footer =()=> {
     const root ={
       marginTop:'20px',
-      color: 'white',
+      
     }    
       
     return (
